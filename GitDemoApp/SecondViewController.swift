@@ -13,6 +13,7 @@ class SecondViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     print("viewDidLoad method")
+    print("My Line of Code")
   }
   
   override func viewWillAppear(animated: Bool) {
