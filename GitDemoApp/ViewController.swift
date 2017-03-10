@@ -12,10 +12,12 @@ class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
+    print("viewDidLoad method")
   }
   
   override func viewWillAppear(animated: Bool) {
     super.viewWillAppear(animated)
+    print("viewWillAppear method")
   }
 
   override func didReceiveMemoryWarning() {

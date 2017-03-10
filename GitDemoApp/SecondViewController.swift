@@ -12,7 +12,9 @@ class SecondViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    print("viewDidLoad method")
+    var name = "Pardeep"
+    name = "Kumar"
+    print(name)
   }
   
   override func viewWillAppear(animated: Bool) {
