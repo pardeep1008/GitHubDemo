@@ -1,15 +1,15 @@
 //
-//  SecondViewController.swift
+//  ThirdViewController.swift
 //  GitDemoApp
 //
-//  Created by Chetu India on 09/03/17.
+//  Created by Pardeep Kumar on 10/03/2017.
 //  Copyright © 2017 Chetu. All rights reserved.
 //
 
 import UIKit
 
-class SecondViewController: UIViewController {
-
+class ThirdViewController: UIViewController {
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     print("viewDidLoad method")
