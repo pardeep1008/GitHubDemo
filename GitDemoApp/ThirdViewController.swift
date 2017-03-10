@@ -12,18 +12,17 @@ class ThirdViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    
-    // Do any additional setup after loading the view.
+    print("viewDidLoad method")
   }
   
   override func viewWillAppear(animated: Bool) {
     super.viewWillAppear(animated)
-    print("")
+    print("viewWillAppear method")
   }
   
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
+    print("didReceiveMemoryWarning method")
   }
   
 }
