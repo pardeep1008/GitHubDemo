@@ -12,6 +12,10 @@ class SecondViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
+    
+    print("viewDidLoad method")
+    print("My Line of Code")
+    
     var name = "Pardeep"
     name = "Kumar"
     print(name)
